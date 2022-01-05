@@ -5,15 +5,18 @@ body{
 }
 p{
     text-align: justify;
+    box-shadow:10px 10px 40px rgb(223, 207, 119);
+    border-radius: 5px;
 }
 h1{
     color: seagreen;
     font-size: 40px;
     font-family: 'Shizuru', cursive;
+    text-align: center;
 }
 h2{
     color: rgb(36, 50, 56);
-    text-align: center;
+    text-align: left;
     font-family: 'Moon Dance', cursive;
     font-size: 30px;
 }
@@ -28,6 +31,7 @@ h2{
 }
 .flexible-container{
     display: flex;
+    margin-bottom: 50px;
 
 }
 .link-button{
@@ -37,9 +41,58 @@ h2{
     color: firebrick;
     font-weight: 700;
     border-radius: 10px;
+    
+
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
 
+#coxbazar{
+    display: flexbox;
+    height: 700px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow:10px 10px 20px khaki;
+ 
+}
+#saintmartin{
+    box-shadow:10px 10px 20px khaki;
+    }
+
+.see{
+   text-decoration: none;
+   background-image:linear-gradient(lawngreen, seagreen);
+   color: silver;
+   font-weight: 700;
+   border-radius: 5px;
+   padding: 5px 18px;
+}
+.area{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow:10px 10px 40px khaki;
+    border-radius: 10px;
+}
+#first-part{
+    border-left: 7px solid;
+    border-image: linear-gradient(seagreen, cyan);
+    border-image-slice: 1;
+}
+#second-part{
+    border-left: 7px solid;
+    border-image: linear-gradient(green, rgb(178, 218, 218));
+    border-image-slice: 1;
+}
+#third-part{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(133, 139, 46), rgb(75, 131, 148));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
